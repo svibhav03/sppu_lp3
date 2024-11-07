@@ -34,6 +34,12 @@ print()
 f.fibonacci_iterative(10)
 
 
+# def fibonacci_memoization(n, memo={}):
+#     if n <= 1:
+#         return n
+#     if n not in memo:
+#         memo[n] = fibonacci_memoization(n - 1, memo) + fibonacci_memoization(n - 2, memo)
+#     return memo[n]
 
 
 # def fibonacci_optimized(n):
